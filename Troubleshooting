@@ -1,0 +1,10 @@
+When evaluating technical answers, check:
+
+Does the command exist?
+Does syntax match the OS/platform?
+Does it require root?
+Is it destructive?
+Does it expose credentials?
+Does it solve root cause?
+Is validation included?
+Is rollback considered?
