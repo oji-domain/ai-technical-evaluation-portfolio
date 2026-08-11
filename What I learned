@@ -1,0 +1,3 @@
+Technical plausibility is not the same as technical correctness.
+
+Good infrastructure evaluation requires understanding what a command changes, what assumptions it makes, and what could happen if the recommendation is executed in production.
