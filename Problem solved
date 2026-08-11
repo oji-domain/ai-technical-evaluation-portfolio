@@ -1,0 +1,11 @@
+AI-generated technical answers can appear convincing while containing:
+
+Invalid commands
+Dangerous commands
+Missing prerequisites
+Incorrect assumptions
+Security issues
+Incomplete validation
+Unnecessary destructive actions
+
+Technical evaluation determines whether an answer would actually work in a real environment.
