@@ -1,0 +1,7 @@
+Technical Accuracy: 6/10 
+Operational Safety: 3/10 
+Completeness: 5/10 
+
+Major Issue: Recommended permissions were unnecessarily permissive. 
+
+Improved Approach: Inspect ownership, Unix permissions, SELinux context, and web-server logs before applying changes.
