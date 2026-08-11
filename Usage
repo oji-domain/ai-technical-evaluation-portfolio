@@ -1,0 +1,26 @@
+Example:
+
+##Scenario
+
+AI recommends:
+
+chmod -R 777 /var/www
+
+to fix an Apache permission issue.
+
+##Evaluation
+
+The command might make the files accessible but grants excessive permissions and ignores the actual cause.
+
+Review:
+
+ls -ld /var/www
+ls -Z /var/www
+ausearch -m AVC -ts recent
+
+Potential appropriate resolution depends on whether the issue involves:
+
+Unix permissions
+Ownership
+SELinux context
+Web-server configuration
